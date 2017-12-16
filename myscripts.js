@@ -1,16 +1,20 @@
-var n = Number(prompt("n  reqemi girin"));
-var count=0;
-var i=1;
-if(n>0){
-    while(i<n){
-if(i%2==1){ 
-    count++
+var n = Number(prompt("n-i daxil edin"));
+var i = 0;
+var count = 0;
+if (n > i) {
+    while (i <= n) {
 
+        if (n % i == 0) {
+
+            count++
+
+
+
+        }
+        i++
+    } console.log("Bolenlerin sayi = " + count);
 }
+else{
 
-i++
-
-    } console.log("tekreqemlerin sayi= " +count);
-
+console.log("Musbet reqem girin");
 }
-else{(console.log("duzgun sayiyi girin"));}
